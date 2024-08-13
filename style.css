@@ -247,5 +247,89 @@ main{
     font-size: 1.3vw;
     color: rgb(199, 200, 201);
 }
+@media(max-width:600px){
+    main{
+    
+        padding: 0 1vw 0 1vw;
+        /* background-color: rgba(0, 255, 255, 0.936); */
+    }
+    #box1{
+        height: 8%;
+    }
+    #nav1{
+        padding-left: 3vw;
+    }
+    #nav1 h2{
+        font-size: 8vw;
+    }
+    #nav2{
+        display: none;
+    }
+    #nav3{
+        margin-left: 35vw;
+    }
+    #icon{
+        height: 100%;
+        width: 40%;
+    }
+
+    #box2{
+        height: 100%;
+    }
+    #textdiv h1{
+        margin-top: 40vw;
+        font-size: 15vw;
+        letter-spacing: 0;
+        word-spacing: 2px;
+    }
+    #textdiv h4{
+        color: rgb(255, 255, 255);
+        margin-top: 1vw;
+        font-size: 4vw;
+    }
+    #book_now{
+        margin-top: 10vw;
+        margin-left: 0;
+        border-radius: 5vw;
+        height: 5%;
+        width: 40%;
+    }
+    #book_now h3{
+        font-size: 4vw;
+    }
+    #arrow_div{
+        margin-top: 60vw;
+        display: flex;
+        justify-content: space-between;
+        height: 30%;
+        
+    }
+    #left{
+        height: 10vw;
+        width: 10vw;
+        background-color: rgba(240, 248, 255, 0.28);
+        backdrop-filter: blur(5px);
+    }
+    #left i{
+        font-size: 5vw;
+    }
+    #right{
+        height: 10vw;
+        width: 10vw;
+        margin-right: 4vw;
+        background-color: rgba(240, 248, 255, 0.28);
+        backdrop-filter: blur(5px);
+    }
+    #right i{
+        font-size: 5vw;
+    }
+    #scroll{
+        display: none;
+    }
+
+
+   
+
+}
 
 
